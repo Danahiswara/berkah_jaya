@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "nama": "Lemari Jati 2 Pintu",
+    "harga": "Rp 4.000.000",
+    "gambar": "/images/lemarijati2pintu.jpg",
+    "deskripsi": "Lemari pakaian dari kayu jati solid dengan ketebalan 2cm.",
+    "unggulan": true
+  },
+  {
+    "id": "2",
+    "nama": "Meja Guru Laci Tengah",
+    "harga": "Rp 1.000.000",
+    "gambar": "/images/mejagurulacitengahcrop.jpg",
+    "deskripsi": "Menggunakan bahan kayu jati dengan Lebar 55cm, Panjang 110cm, Tinggi 75cm dengan ukuran kaki-kaki 3x7cm, dan Tebal papan 2cm.",
+    "unggulan": true
+  },
+  {
+    "id": "3",
+    "nama": "Satu Set Meja dan Kursi Guru",
+    "harga": "Rp 1.500.000",
+    "gambar": "/images/satusetmejakursiguru.jpg",
+    "deskripsi": "Menggunakan meja dengan bahan kayu jati dengan Lebar 55cm, Panjang 110cm, Tinggi 75cm dengan ukuran kaki-kaki 3x7cm, dan Tebal papan 2cm.",
+    "unggulan": true
+  },
+  {
+    "id": "4",
+    "nama": "Meja dan Kursi Sekolah Satu Set",
+    "harga": "Rp 990.000",
+    "gambar": "/images/satusetmejakursisekolah.jpg",
+    "deskripsi": "Menggunakan bahan kayu jati dengan spesifikasi: dimensi meja 50x60x70cm dan dimensi kursi 40x46x84cm dengan tebal papan 2cm.",
+    "unggulan": false
+  },
+  {
+    "id": "5",
+    "nama": "Lemari 2 Pintu Model Kaca",
+    "harga": "Rp 3.000.000",
+    "gambar": "/images/kemari2pintukaca.jpg",
+    "deskripsi": "Menggunakan bahan kayu jati solid dengan model pintu menggunakan kaca bening.",
+    "unggulan": false
+  },
+  {
+    "id": "6",
+    "nama": "Meja Belajar Anak",
+    "harga": "Rp 750.000",
+    "gambar": "/images/mejabelajar.jpg",
+    "deskripsi": "Meja belajar ergonomis untuk anak, aman dan nyaman.",
+    "unggulan": false
+  }
+]
