@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Link href="/">
             <div className="flex items-center gap-2">
-              <Image src="/images/gambarkayu.jpg" alt="Logo" width={36} height={36} />
+              <Image src="/images/berkah-jaya-logo.png" alt="Logo" width={36} height={36} />
               <span className="text-lg font-bold text-gray-900">BERKAH JAYA</span>
             </div>
           </Link>
@@ -46,12 +46,6 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        {/* <div className="flex-grow"></div>
-        <div className="relative flex items-center justify-center md:hidden">
-            <button type="button">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="h-6 w-auto text-slate-900"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
-            </button>
-        </div> */}
     </nav>
     {/* Mobile Menu */}
     {menuOpen && (

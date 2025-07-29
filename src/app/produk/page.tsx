@@ -16,7 +16,7 @@ export default function HalamanProduk() {
       <div className="max-w-6xl mx-auto">
         <div className="mb-6">
           <Link href="/">
-            <button className="text-yellow-700 hover:underline">← Kembali ke Beranda</button>
+            <button className="text-yellow-700 font-semibold hover:underline">← Kembali ke Beranda</button>
           </Link>
         </div>
 
@@ -28,7 +28,7 @@ export default function HalamanProduk() {
           ))}
         </div>
         <div className="text-center mt-10">
-          <Link href="https://wa.me/6289687815419">
+          <Link href="https://wa.me/6281229715706">
             <button className="bg-yellow-700 text-white px-6 py-2 rounded-xl hover:bg-yellow-800 border-4">Pesan</button>
           </Link>
         </div>

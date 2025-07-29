@@ -21,7 +21,6 @@ export default function HomePage() {
         id="beranda"
         className="relative w-full h-[100vh] bg-cover bg-center flex items-center justify-center px-20 text-white mask-b-from-80% mask-b-to-100%"
         style={{ backgroundImage: "url('/images/landingpage.jpg')" }}>
-        {/* <div className="absolute inset-0 bg-black/50"></div> */}
         <div className="relative z-10 text-center max-w-xl px-4 py-5">
           <div className="absolute rounded-3xl inset-0 bg-black/50"></div>
           <h1 className="text-6xl md:text-10xl font-sans font-black leading-tight drop-shadow-md text-blue-500 text-shadow-amber-50 ">
@@ -31,7 +30,7 @@ export default function HomePage() {
             Pusatnya Kayu <br />
             Jati dan Kalimantan
           </h2>
-          <p className="mt-4 text-lg text-black font-semibold text-justify bg-white border-4 border-yellow-500 rounded-2xl p-2">
+          <p className="mt-4 text-lg text-white font-semibold text-justify bg-black border-4 border-yellow-500 rounded-2xl p-2">
             Menyediakan produk furnitur berkualitas dari kayu jati dan kalimantan, dibuat dengan ketelitian dan keahlian pengrajin lokal. 
             Cocok untuk mempercantik rumah, kantor, hingga ruang usaha Anda.</p>
         </div>
@@ -39,7 +38,7 @@ export default function HomePage() {
 
       {/* Section Promosi */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-white">
-        <div className="w-full md:w-1/2 text-left md:text-center  bg-yellow-700/30 rounded-2xl">
+        <div className="w-full md:w-1/2 text-left md:text-center  bg-yellow-700/30 rounded-2xl py-3">
           <h2 className="text-3xl font-bold text-yellow-900 mb-4 px-10">Temukan Kualitas Mebel Terbaik</h2>
           <p className="text-gray-900 font-semibold text-justify px-10 lg:px-20">
             Berkah Jaya adalah solusi terbaik untuk kebutuhan furnitur rumah Anda. Kami menghadirkan produk-produk berkualitas dari kayu jati dan kalimantan, 
@@ -49,7 +48,7 @@ export default function HomePage() {
             <br /><br />
             Bergabunglah dengan ratusan pelanggan yang telah merasakan kualitas dan layanan terbaik dari Berkah Jaya!</p>
           <div className="text-center mt-5 mb-5">
-          <Link href="https://wa.me/6289687815419">
+          <Link href="https://wa.me/6281229715706">
             <button className="bg-yellow-700 text-white px-6 py-2 rounded-xl hover:bg-yellow-800">Pesan Sekarang ➡️</button>
           </Link>
         </div>
@@ -75,7 +74,7 @@ export default function HomePage() {
         </div>
         <div className="text-center mt-10">
           <Link href="/produk">
-            <button className="bg-yellow-700 text-white px-6 py-2 rounded hover:bg-yellow-800">Lihat Selengkapnya</button>
+            <button className="bg-yellow-700 text-white px-6 py-2 rounded-xl hover:bg-yellow-800">Lihat Selengkapnya</button>
           </Link>
         </div>
       </section>
@@ -90,10 +89,16 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center">
           <h2 className="text-3xl font-bold mb-4 text-center text-yellow-950">Tentang Kami</h2>
-          <p className="text-center max-w-2xl mx-auto font-medium bg-white/50 rounded-xl">
+          <p className="text-justify max-w-2xl lg:max-w-4xl mx-auto font-medium bg-white/50 rounded-xl p-5">
             Usaha meubel ini merupakan usaha rumahan yang telah berdiri sejak 2022. 
             Kami memproduksi berbagai jenis furnitur dari kayu jati dan kalimantan dengan kualitas tinggi.
-            Menerima desain kustom.
+            Menerima desain kustom untuk memenuhi kebutuhan dan selera konsumen.
+            <br />
+            Dengan mengandalkan bahan baku yang terpilih dan tenaga kerja lokal yang berpengalaman, kami menghadirkan produk yang tidak hanya kuat dan tahan lama, 
+            tetapi juga memiliki nilai estetika tinggi.
+            <br />
+            Kepuasan pelanggan adalah prioritas kami. Oleh karena itu, setiap proses produksi dilakukan dengan penuh ketelitian dan dedikasi. 
+            Kami percaya bahwa setiap furnitur memiliki cerita dan kami siap membantu Anda mewujudkannya.
           </p>
           <div className="mt-6 flex justify-center">
             <img src="/images/Pas Foto 3x4.jpg" alt="Foto Pemilik Usaha" className="w-23 h-23 rounded-full object-cover border-2 border-yellow-700 shadow-md" />
@@ -103,7 +108,6 @@ export default function HomePage() {
             Owner Berkah Jaya
           </p>
         </div>
-        
       </section>
 
       {/* Kontak Section */}
@@ -123,7 +127,7 @@ export default function HomePage() {
                 <div>
                   <p className="text-xl font-semibold mb-2">Whatsapp: </p>
                   <a 
-                    href="https://wa.me/6289687815419" 
+                    href="https://wa.me/6281229715706" 
                     className="text-yellow-900 underline text-lg font-semibold" 
                     target="_blank" 
                     rel="noopener noreferrer">Berkah Jaya</a>
@@ -135,7 +139,7 @@ export default function HomePage() {
                   <div>
                     <p className="text-xl font-semibold mb-2">Instagram:</p>
                     <a 
-                      href="https://instagram.com/a.danahiswara" 
+                      href="https://instagram.com/ceritakesongo" 
                       className="text-yellow-900 underline text-lg font-semibold" 
                       target="_blank" 
                       rel="noopener noreferrer">@berkahjaya</a>
@@ -145,7 +149,7 @@ export default function HomePage() {
             </div>
           </div>
           {/* Google Maps */}
-          <div className="w-fit max-w-3xl h-fit mx-auto rounded overflow-hidden justify-center">
+          <div className="w-fit max-w-3xl h-fit mx-auto rounded overflow-hidden justify-center items-center">
             <p className="text-xl font-semibold mb-2">Lokasi:</p>
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96697.08715852437!2d110.46653137155404!3d-7.262235477498254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7083001326720d%3A0x1b1812f67f58e466!2sToko%20Kayu%20Berkah%20Jaya!5e1!3m2!1sid!2sid!4v1752901298656!5m2!1sid!2sid" 

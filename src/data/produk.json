@@ -35,16 +35,16 @@
     "id": "5",
     "nama": "Lemari 2 Pintu Model Kaca",
     "harga": "Rp 3.000.000",
-    "gambar": "/images/kemari2pintukaca.jpg",
+    "gambar": "/images/lemari2pintukaca.jpg",
     "deskripsi": "Menggunakan bahan kayu jati solid dengan model pintu menggunakan kaca bening.",
     "unggulan": false
   },
   {
     "id": "6",
-    "nama": "Meja Belajar Anak",
-    "harga": "Rp 750.000",
-    "gambar": "/images/mejabelajar.jpg",
-    "deskripsi": "Meja belajar ergonomis untuk anak, aman dan nyaman.",
+    "nama": "Custom Design",
+    "harga": "Rp -",
+    "gambar": "/images/gambarkayu.jpg",
+    "deskripsi": "Menerima desain kustom sesuai dengan keinginan pelanggan, hubungi kami untuk informasi lebih lanjut.",
     "unggulan": false
   }
 ]
