@@ -23,7 +23,7 @@ export default function HomePage() {
         style={{ backgroundImage: "url('/images/landingpage.jpg')" }}>
         <div className="relative z-10 text-center max-w-xl px-4 py-5">
           <div className="absolute rounded-3xl inset-0 bg-black/50"></div>
-          <h1 className="text-6xl md:text-10xl font-sans font-black leading-tight drop-shadow-md text-blue-500 text-shadow-amber-50 ">
+          <h1 className="text-6xl md:text-10xl font-sans font-black leading-tight drop-shadow-md text-blue-500 text-shadow-black text-shadow-lg">
             BERKAH JAYA
           </h1>
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-md text-gray-50">
@@ -74,7 +74,7 @@ export default function HomePage() {
         </div>
         <div className="text-center mt-10">
           <Link href="/produk">
-            <button className="bg-yellow-700 text-white px-6 py-2 rounded-xl hover:bg-yellow-800">Lihat Selengkapnya</button>
+            <button className="bg-yellow-700 text-white px-6 py-2 rounded-xl hover:bg-yellow-800">Lihat Semua</button>
           </Link>
         </div>
       </section>

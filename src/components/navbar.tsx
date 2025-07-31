@@ -7,7 +7,7 @@ import {useState} from 'react'
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <header className="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
+    <header className="sticky inset-0 z-50 border-b border-slate-100 bg-yellow-900/80 backdrop-blur-lg">
     <nav className="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-12 py-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -20,16 +20,16 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden items-center gap-6 md:flex">
-            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline">
+            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline hover:text-gray-100">
                 <a href="#beranda">Beranda</a>
             </li>
-            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline">
+            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline hover:text-gray-100">
                 <a href="#produk">Produk</a>
             </li>
-            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline">
+            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline hover:text-gray-100">
                 <a href="#tentang">Tentang</a>
             </li>
-            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline">
+            <li className="pt-1.5 font-dm text-sm font-medium text-gray-900 hover:underline hover:text-gray-100">
                 <a href="#kontak">Kontak</a>
             </li>
         </ul>
