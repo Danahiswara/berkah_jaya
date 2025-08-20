@@ -3,6 +3,7 @@
 
 import React from 'react'
 import { Produk } from '../types/Produk'
+import Image from 'next/image'
 
 interface Props {
   produk: Produk
@@ -22,7 +23,7 @@ export default function ProdukModal({ produk, onClose }: Props) {
         >
           &times;
         </button>
-        <img src={produk.gambar} alt={produk.nama} className="w-full h-64 object-contain rounded-md mb-4 bg-white" />
+        <Image src={produk.gambar} alt={produk.nama} className="w-full h-64 object-contain rounded-md mb-4 bg-white" />
         <h2 className="text-2xl font-bold text-gray-800 mb-2">{produk.nama}</h2>
         <p className="text-sm text-gray-600 mb-2">{produk.deskripsi}</p>
         <p className="text-lg font-semibold text-green-700">{produk.harga}</p>

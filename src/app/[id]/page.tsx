@@ -1,4 +1,5 @@
 import produkList from '@/data/produk.json'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 
 type Produk = {
@@ -9,15 +10,18 @@ type Produk = {
   deskripsi: string
 }
 
-export default async function ProdukDetail({ params }: { params: { id: string } }) {
-  const produk = produkList.find((p: Produk) => p.id === params.id)
+export default async function ProdukDetail(
+  { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const list = produkList as unknown as Produk[]
+  const produk = list.find((p: Produk) => p.id === id)
 
   if (!produk) return notFound()
 
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4">
       <div className="max-w-md mx-auto bg-white shadow-xl rounded-2xl overflow-hidden">
-        <img
+        <Image
           src={produk.gambar}
           alt={produk.nama}
           className="w-full h-64 object-contain bg-white"
@@ -30,4 +34,9 @@ export default async function ProdukDetail({ params }: { params: { id: string } 
       </div>
     </div>
   )
+}
+
+export async function generateStaticParams() {
+  const list = produkList as unknown as Produk[]
+  return list.map((p) => ({ id: p.id }))
 }
