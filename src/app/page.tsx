@@ -82,10 +82,10 @@ export default function HomePage() {
       {/* Tentang Section */}
       <section id="tentang" className="relative p-8 md:p-16 bg-yellow-700/50 rounded-4xl scroll-mt-24 overflow-hidden">
         <div className="hidden md:block absolute left-2 lg:left-20 bottom-0">
-          <Image src="/images/wood-sign.png" alt="Dekorasi Kayu Kiri" className=" h-80 lg:h-100 object-contain scale-x-[-1]" />
+          <Image src="/images/wood-sign.png" alt="Dekorasi Kayu Kiri" width={500} height={500} className=" h-80 lg:h-100 object-contain scale-x-[-1]" />
         </div>
         <div className="hidden md:block absolute right-2 lg:right-20 bottom-0">
-          <Image src="/images/wood-sign.png" alt="Dekorasi Kayu Kanan" className="h-80 lg:h-100 object-contain" />
+          <Image src="/images/wood-sign.png" alt="Dekorasi Kayu Kanan" width={500} height={500} className="h-80 lg:h-100 object-contain" />
         </div>
         <div className="relative z-10 text-center">
           <h2 className="text-3xl font-bold mb-4 text-center text-yellow-950">Tentang Kami</h2>
@@ -100,9 +100,9 @@ export default function HomePage() {
             Kepuasan pelanggan adalah prioritas kami. Oleh karena itu, setiap proses produksi dilakukan dengan penuh ketelitian dan dedikasi. 
             Kami percaya bahwa setiap furnitur memiliki cerita dan kami siap membantu Anda mewujudkannya.
           </p>
-          <div className="mt-6 flex justify-center">
+          {/* <div className="mt-6 flex justify-center">
             <Image src="/images/Pas Foto 3x4.jpg" alt="Foto Pemilik Usaha" className="w-23 h-23 rounded-full object-cover border-2 border-yellow-700 shadow-md" />
-          </div>
+          </div> */}
           <p className="text-center text-lg font-bold mb-4 text-yellow-950">
             Mangsuri<br />
             Owner Berkah Jaya
