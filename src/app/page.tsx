@@ -159,7 +159,7 @@ export default function HomePage() {
               allowFullScreen 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade">
-            </iframe>" 
+            </iframe>
           </div>
         </div>
       </section>
