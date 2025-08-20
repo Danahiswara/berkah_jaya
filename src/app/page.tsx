@@ -154,7 +154,7 @@ export default function HomePage() {
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96697.08715852437!2d110.46653137155404!3d-7.262235477498254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7083001326720d%3A0x1b1812f67f58e466!2sToko%20Kayu%20Berkah%20Jaya!5e1!3m2!1sid!2sid!4v1752901298656!5m2!1sid!2sid" 
               width="240" 
-              height="300" 
+              height="200" 
               style={{border:0}} 
               allowFullScreen 
               loading="lazy" 
